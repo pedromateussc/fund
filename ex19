@@ -1,0 +1,11 @@
+print("Calculo o conceito americano baseado na sua nota")
+
+nota = (float) (input("Digite sua nota: "))
+if nota < 5.0:
+    print("Seu conceito eh D")
+elif nota < 7.0:
+    print("Sua nota eh conceito C")
+elif nota < 8.0:
+    print("Seu conceito eh B")
+else:
+    print("Parabens, conceito A")             
