@@ -5,8 +5,12 @@ resultado = 0.0
 if tipo == "C":
     resultado = temperatura * 1.8 + 32
     print(Temperatura, "ºC em Farenheit eh", resultado,"ºF")
-else: 
+elif tipo == "F":
     resultado  = (temperatura-32)/1.8
     print(temperatura, "ºF em Celsius eh", resultado,"ºC")
-elif:
-    print("Voce digitou errado")   
+else:
+    print("Voce digitou um valor errado")    
+
+
+
+
