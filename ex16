@@ -1,0 +1,11 @@
+print(" Exemplo de if/else")
+
+valor = input("Voce gostaria de uma saudacao?")
+
+if (valor == "Sim"):
+    print("Ola, seja bem-vindo(a)")
+opcao = input("Digite 1 para continuar e qualquer outro valor pra encerrar: ")
+ if (opcao == "1" ):
+     print("continuando")
+else:
+    print("Obrigado por estar conosco, adeus!")
