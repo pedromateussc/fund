@@ -1,0 +1,22 @@
+print("Maquina de calculos")
+operacao1 = (flot) (input("Digite o primeior operando: "))
+operacao2 = (float) (input("Digite o segundo operando: "))
+
+if (operacao1 == "+"):
+    print(operacao1 + operacao2) 
+elif (operacao == "-"):
+    print(operacao1 - operacao2)
+elif (operacao == "*"):
+    print(operacao1*operacao2)    
+elif (operacao == "/"):
+    if(operando2==0)
+    print("Nao eh possivel realizar divisao por 0")
+    else:
+        print(operacao1 / operacao2)
+ else:
+     print("Operacao invalida")       
+
+
+
+
+
