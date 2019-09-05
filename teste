@@ -1,0 +1,21 @@
+O que é processamento de dados?
+O processamento de dado consiste na execução  de várias operações sobre dados, que posteriormente serão exibidos aos seus usuários para auxílio na solução de seus problemas cotidianos.
+Descreva um programa de computador
+Consistem em sequências de instruções elaboradas em linguagem de programação com o objetivo de resolverem ou auxiliarem na solução de problemas.
+O que é Lógica de Programação e qual o objetivo do seu estudo?
+É a técnica de encadear pensamentos para atingir determinado objetivo. O estudo na área de Programação tem como principal objetivo desenvolver e aperfeiçoar o raciocínio lógico possível de ser traduzido para os computadores.
+O que significa "implementação" no contexto da computação?
+Consiste na codificação  do raciocínio humano em um programa de computador, sendo este raciocínio descrito através de uma linguagem de programação. 
+Defina algoritmo
+É um conjunto de passos para realizar uma tarefa/solucionar um problema.
+Discorra sobre o que é uma variável
+Variáveis são espaços na memória para armazenar valores. Em resumo, uma variável é uma posição nomeada na memória que é usada para guardar um valor que pode ser modificado por um programa de computador.
+Cite exemplos de operadores lógicos
+and /or/not
+Cite exemplos de operadores relacionais
+"==" / "!=" / ">" / "<"
+O que são identificadores?
+O que é atribuição?
+O que é uma estrutura de seleção? Exemplifique em Python.
+As estruturas de seleção permitem  que nós selecionamos um grupo de ações( bloco de código) a ser executado quando determinada condições ocorrem ou não.
+O que é uma variável do tipo lógico? Exemplifique.
