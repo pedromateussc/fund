@@ -1,0 +1,17 @@
+print(" == Numeros em ordem crescente == ")
+a = (int) (input("Valor do numero a: ")) 
+b = (int) (input("Valor do numero b: ")) 
+c = (int) (input("Valor do numero c: ")) 
+
+if (a<b) and (b<c):
+    print(a, b, c)    
+elif (b<a) and (a<c): 
+    print(b, a, c)
+elif (c<b) and (b<a):
+    print(c, b, a)      
+elif (c<a) and (a<b):
+    print(c, a , b)
+elif (a<c) and (c<b):
+    print(a, c, b)
+elif (b<c) and (c<a):
+    print(b, c, a)
