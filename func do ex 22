@@ -1,0 +1,28 @@
+def soma(x, y):
+    print(x + y)
+def subs(x, y):
+    print(x - y)
+def multi(x, y):
+    print(x * y)
+def div(x, y):
+    if (y == 0):
+        print("Nao eh possivel realizar divisao por Zero")
+    else:
+        print(x / y)            
+
+print("==== Calculadora ====")
+
+operando1 = (float) (input("Digite o primeiro operando: "))
+operando2 = (float) (input("Digite o segundo operando: "))
+operador = input("Digite qual operacao quer realizar: ")
+
+if (operador == "+"):
+    soma(operando1 , operando2)
+elif (operador == "-"):
+    subs(operando1, operando2)
+elif (operador == "*"):
+    multi(operando1, operando2)
+elif (operador == "/"):
+    div(operando1, operando2)
+else:
+    print("Operacao invalida")
