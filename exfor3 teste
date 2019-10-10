@@ -1,0 +1,24 @@
+#Crie uma lista com 3 tipos de vinho tinto, rose e branco
+#Apresente o valores da lista e 
+# peça 10x p/ o usuario selecionar uma das opcs
+#ao final apresente as quantidades p/o tinto, rose, branco
+for i in range(10): # identar tudo ate o else dentro do for
+tinto 0, branco =0, branco = 0   
+vinhos = ["[1] tinto", "[2] rose", "[3] branco"] 
+print(" Selecione um dos tipos de vinhos: ") 
+for tipo in vinhos: 
+    print(tipo)
+escolha = input()
+
+if (escolha == "T"):
+    tinto += 1
+elif (escolha == "B"):
+    branco += 1
+elif (escolha == "R"):
+    rose += 1
+else : 
+    print("Opc invalida")
+
+print("Tinto: ", tinto )
+print("Branco: ", branco)
+print("Rose", rose)
