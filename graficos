@@ -1,0 +1,69 @@
+import turtle
+
+def square(side):
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+
+#square(50)    
+
+
+def square2(side):
+    for i in range(3):
+        turtle.forward(70)
+        turtle.left(120)
+        turtle.forward(70)
+        turtle.left(120)
+        turtle.forward(70)
+    
+    
+#square2(50)
+
+def square2(side):
+    for i in range(3):
+        turtle.forward(70)
+        turtle.left(120)
+        
+    
+    
+square2(50)   
+    
+
+def square3(side):
+    for i in range(4):
+        print(turtle.forward(side))
+        print(turtle.left(90))
+    for i in range(4):
+        print (turtle.forward(side))
+        print (turtle.left(90))
+        
+    
+    
+    
+#square3(50)
+def square5(base, height):
+    turtle.forward(base)
+    turtle.left(90)
+    turtle.forward(height)
+    turtle.left(90)
+    turtle.forward(base)
+    turtle.left(90)
+    turtle.forward(height)
+    turtle.left(50)
+#square5(100,40)    
+    
+        
+
+    
+    
